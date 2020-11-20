@@ -1,0 +1,29 @@
+.modal {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.modal.active {
+  display: flex;
+  pointer-events: initial;
+}
+
+.modal__img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,59 @@
+body {
+  background: #293950;
+}
+
+.app {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+
+  transition: 0.5s ease;
+}
+
+.image:hover {
+  opacity: 0.5;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.avatar {
+  max-width: 100%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .image-container {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -8,12 +8,11 @@
   z-index: 100;
   top: 0;
   left: 0;
-  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal.active {
   display: flex;
-  pointer-events: initial;
 }
 
 .modal__img {

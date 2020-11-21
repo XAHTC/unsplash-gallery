@@ -3,12 +3,13 @@ const initialState = {
 }
 
 const items = (state = initialState, action) => {
-  if (action.type === "SET_ITEMS") {
+  if (action.type === "FETCH_ITEMS") {
     return {
       ...state,
       items: action.payload,
     }
   }
+
   return state;
 };
 

@@ -12,8 +12,8 @@ function App() {
   useEffect(() => {
     dispatch(fetchItems());
   }, []);
-  
-  const items = useSelector(({items}) => items.items)
+
+  const items = useSelector(({ items }) => items.items);
 
   const [selectedItem, setSelectedItem] = useState(null);
 

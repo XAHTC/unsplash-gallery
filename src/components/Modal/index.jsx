@@ -8,7 +8,7 @@ const Modal = ({ onClose, active, url }) => {
       onClick={onClose}
     >
       <div className="modal__img" onClick={onClose}>
-        <img src={url} onClick={onClose}/>
+        <img src={url} onClick={onClose} alt="image"/>
       </div>
     </div>
   );

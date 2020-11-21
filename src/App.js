@@ -7,11 +7,12 @@ import { fetchItems } from "./redux/actions/items";
 import "./style.css";
 
 function App() {
+
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchItems());
-  }, []);
+  }, [dispatch]);
 
   const items = useSelector(({ items }) => items.items);
 

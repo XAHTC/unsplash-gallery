@@ -1,4 +1,4 @@
-You can check demo version [here](xahtc.github.io/usplash-gallery)
+You can check demo version [here](https://xahtc.github.io/unsplash-gallery/)
 
 # Getting Started with Create React App
 
